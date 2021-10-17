@@ -1,16 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   padding:  0;
   font-family: 'Lato', sans-serif;
 }
 
-.home, .reports, .products{
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+.main{
+  padding: 20px;
+  /* border: 1px solid rgb(224, 6, 6); */
 }
+
+.main h1{
+  text-align: center;
+}
+
+.main .count-click-container
+{
+  border: 1px solid rgb(75, 74, 74);
+  width: 100%;
+  min-height: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 15px;
+  display: flex;
+  justify-content:space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.count-click-container .count-click{
+  padding: 20px;
+  background: #999;
+  margin: 20px;
+} 
+

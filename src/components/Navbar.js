@@ -32,7 +32,7 @@ function Navbar() {
                             return(
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path} 
-                                    onClick={item.path=='/messages'? chao : showSidebar}>
+                                    onClick={item.path==='/messages'? chao : showSidebar}>
                                         {item.icon}
                                         <span>{item.title}</span>
                                     </Link>
@@ -51,3 +51,5 @@ function Navbar() {
 }
 
 export default Navbar
+
+
