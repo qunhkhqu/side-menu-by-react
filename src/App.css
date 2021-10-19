@@ -13,26 +13,47 @@
 }
 
 .main h1{
+  /* width: 100%; */
   text-align: center;
 }
 
 .main .count-click-container
 {
   border: 1px solid rgb(75, 74, 74);
-  width: 100%;
+  width:60%;
   min-height: 30px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin: 50px auto 50px;
   box-shadow: 5px 5px 15px;
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-content: center;
   align-items: center;
+  clear: both;
+}
+
+.main .sub-app
+{
+  width:60%;
+  min-height: 30px;
+  border-radius: 10px;
+  margin: 50px auto 50px;
+  box-shadow: 5px 5px 15px;
 }
 
 .count-click-container .count-click{
   padding: 20px;
   background: #999;
   margin: 20px;
+  border-radius: 5px;
 } 
 
+.count-click-container .count-click button{
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.timer span{
+  padding: 5px 10px;
+  min-width: 100px;
+}
